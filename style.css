@@ -97,7 +97,7 @@ position: relative;
 .discount{
     position: absolute;
     left: 0;
-    bottom: 5.5rem;
+    bottom: 6rem;
     background-color: red;
     padding: .2rem .4rem;
     color: white;
@@ -106,7 +106,7 @@ position: relative;
 .sostenibility{
     position: absolute;
     left: 3.2rem;
-    bottom: 5.5rem;
+    bottom: 6rem;
     background-color: green;
     padding: .2rem .4rem;
     color: white;
