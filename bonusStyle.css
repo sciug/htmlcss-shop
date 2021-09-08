@@ -31,6 +31,8 @@ img{
 .first-img{
     z-index: 2;
     position: relative;
+    transition: z-index 100ms ;
+    -o-transition-timing-function:cubic-bezier(.17,.67,.83,.67) ;
    
 }
 .second-img{
@@ -47,6 +49,71 @@ img{
     position: relative;
     top: 3px;
 }
+
+
+
+/* Header */
+
+#site_header{
+    padding: 2rem 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    border-bottom: 2px solid #d3d3d3;
+}
+
+.logo_container{
+
+}
+
+
+.logo{width:100%;
+}
+
+.nav{
+margin-left: 10rem;
+
+}
+
+.nav-list{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+
+
+}
+.list-item{
+    margin-right: 2.5rem;
+    transition: transform 250ms;
+    transform: scale(1);
+}
+
+.list-item:hover, .list-item:focus, .list-item:active{
+    transform: scale(1.1);
+   
+}
+
+.list-link{
+    text-decoration: none;
+    color: #8f8383;
+    transition: color 250ms;
+
+    
+}
+
+
+
+.list-link:hover, .list-link:focus, .list-link:active{
+    color:rgb(71, 71, 71);
+}
+
+
+
+
+
+
 
 /* tipography */
 
@@ -84,7 +151,7 @@ font-weight: 400;}
     margin-bottom: 1rem;
 }
 
-.row{margin-top:2rem;}
+.row{margin-top:3rem;}
 
 
 .col{float: left;
@@ -99,9 +166,9 @@ position: relative;
 
 .like{
     position: absolute;
-    top:2rem;
+    top:.5rem;
     right: 0;
-    padding: .5rem 1.2rem;
+    padding: 0rem 1.2rem;
     font-size: 2rem;
     z-index: 3;
     color: #d3d3d3;
