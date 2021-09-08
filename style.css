@@ -7,7 +7,6 @@
 #site_main{
     margin: 0 auto;
     width: 70%;
-    background: aqua;
 }
 
 
@@ -41,6 +40,33 @@ img{
 
 
 
+/* tipography */
+.product_name{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.2rem;
+
+}
+
+
+.noUppercase{text-transform: none;}
+
+
+.price{
+    color: red;
+    font-weight: 700;
+}
+
+.old_price{
+    color: black;
+    font-weight: 500;
+    text-decoration-line:line-through;
+}
+
+
+.row{margin-top: 2rem;}
+
+
 .col{float: left;
 width: 32.5%;
 position: relative;
@@ -55,7 +81,7 @@ position: relative;
     position: absolute;
     top:2rem;
     right: 0;
-    background-color:aqua;
+    background-color:white;
     padding: .5rem 1rem;
     font-size: 2rem;
     z-index: 3;
