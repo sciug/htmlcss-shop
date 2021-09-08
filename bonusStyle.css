@@ -49,6 +49,12 @@ img{
 }
 
 /* tipography */
+
+.brand{font-family: 'Playfair Display', serif;
+font-weight: 400;}
+
+
+
 .product_name{
     text-transform: uppercase;
     font-weight: 700;
@@ -112,7 +118,7 @@ position: relative;
 .discount{
     position: absolute;
     left: .5rem;
-    bottom: 9rem;
+    bottom: 8.5rem;
     background-color: #e60b3e;
     color: white;
     
@@ -120,7 +126,7 @@ position: relative;
 .sostenibility{
     position: absolute;
     left: 4.5rem;
-    bottom: 9rem;
+    bottom: 8.5rem;
     background-color: green;
     color: white;
 }
