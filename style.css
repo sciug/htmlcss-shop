@@ -38,7 +38,10 @@ img{
     z-index: 0;
 }
 
-
+.images:hover {
+    position: relative;
+    top: 3px;
+}
 
 /* tipography */
 .product_name{
@@ -64,7 +67,11 @@ img{
 }
 
 
-.row{margin-top: 2rem;}
+#site_main div:last-child{
+    margin-bottom: 1rem;
+}
+
+.row{margin-top:2rem;}
 
 
 .col{float: left;
@@ -104,6 +111,11 @@ position: relative;
     padding: .2rem .4rem;
     color: white;
 }
+.sostenibility_modifier{
+    left: 0;
+}
+
+
 .discount, .sostenibility{
     color: white;
     font-weight: 600;
